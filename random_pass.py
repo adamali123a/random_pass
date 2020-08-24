@@ -19,11 +19,13 @@ b = "ASDFGHJKLZXCVBNMQWERTYUIOP"
 
 c = "0123456789"
 
-g = a + b + c
+qp = "!@#$%^&*()_+=/"
 
-h = g + a + b + c
+g = a + b + c + qp
 
-moscow = h + g + c + b + a
+h = g + a + b + qp + c
+
+moscow = h + g + c + qp + b + a
 
 for d in moscow:
     try:
